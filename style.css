@@ -19,9 +19,9 @@ body {
   width: 50%;
 }
 .right-header {
-    width: 50%;
-    margin-left: 40px;
-  }
+  width: 50%;
+  margin-left: 40px;
+}
 .header-title {
   color: #272727;
   font-size: 52px;
@@ -35,7 +35,7 @@ body {
   font-size: 14px;
 }
 .btn {
-    margin-top: 10px;
+  margin-top: 10px;
   border-radius: 8px;
   color: white;
   background: #e55473;
@@ -47,3 +47,55 @@ body {
   padding: 30px;
 }
 
+/* Featured Section style start */
+.featured {
+  padding: 40px 40px;
+  height: 100vh;
+  text-align: center;
+}
+.featured-title {
+  font-size: 30px;
+  padding-top: 70px;
+}
+.feature-des {
+  color: gray;
+  padding: 30px 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.featured-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.featured-div-img-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 320px;
+  height: 400px;
+  padding: 30px;
+}
+.featured-div-img-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 320px;
+  height: 400px;
+  padding: 30px;
+}
+.featured-div-img-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 320px;
+  height: 400px;
+  padding: 30px;
+}
+.featured-img {
+  width: 280px;
+  height: 400px;
+  padding-top: 30px;
+}
+u {
+  display: inline-block;
+  padding: 20px;
+  font-weight: bold;
+}
