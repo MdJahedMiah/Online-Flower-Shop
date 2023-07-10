@@ -99,3 +99,22 @@ u {
   padding: 20px;
   font-weight: bold;
 }
+/* Optional section */
+.optional{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 170px;
+    padding: 40px 40px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.delivery{
+    text-align: center;
+}
+.fresh-flower{
+    text-align: center;
+}
+.free-support{
+    text-align: center;
+}
