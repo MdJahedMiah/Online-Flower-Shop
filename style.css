@@ -216,6 +216,39 @@ span {
 /* .subscribe-btn{
     margin-bottom: 10px;
   } */
+  /* Review section */
+  .review{
+    margin: 30px 0 90px 0;
+  text-align: center;
+  }
+  .review-1{
+    background-color: azure;
+    width: 20%;
+    box-shadow: 5px 5px 8px 3px;
+    text-align: center;
+  }
+  .all-reviews{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .review-title{
+    font-size: 30px;
+  padding: 50px 0;
+  }
+  .review-name{
+    color: black;
+    padding-top: 20px;
+  }
+  .review-des{
+    color: gray;
+  padding: 20px 0 10px 0;
+  line-height: 25px;
+  font-size: 14px;
+  }
+  .review-img{
+    width: 100%;
+  }
   /* footer style start */
   .footer{
     margin-top: 30px;
