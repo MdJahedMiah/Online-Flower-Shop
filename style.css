@@ -159,12 +159,12 @@ span {
   text-align: center;
 }
 .instagram-images {
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 0 170px;
-  }
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 170px;
+}
 .instagram-title {
   font-size: 30px;
   padding-top: 70px;
@@ -175,6 +175,45 @@ span {
   line-height: 25px;
   font-size: 14px;
 }
-.instagram-img{
-    width: 100%;
+.instagram-img {
+  width: 100%;
 }
+/* Latest deals style start */
+.latest-deals {
+  text-align: center;
+  margin: 0 170px;
+  padding: 60px 40px;
+  background: url("images/Rectangle\ 9.png");
+}
+.latest-title {
+  font-size: 30px;
+  padding-top: 70px;
+}
+.latest-des {
+  color: gray;
+  padding: 20px 0 20px 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.email-subscribe{
+    padding-top: 10px;
+}
+.subscribe input {
+  font-size: 14px;
+  border-radius: 8px;
+  background: #fff;
+  color: white;
+  width: 400px;
+  height: 50px;
+  border: none;
+  padding-left: 15px;
+}
+/* .subscribe-btn{
+    margin-bottom: 10px;
+  } */
